@@ -3,7 +3,7 @@
 # configure for your application.
 #
 # - Make a copy and name it something appropriate.
-#   - e.g. .azure-env
+#   - e.g. .azure-apiary-env
 # - Fill in the values.
 # - Load the values into your environment before interacting with Azure:
 #
@@ -38,6 +38,7 @@ POSTGRES_HOST='rosie.db.elephantsql.com'
 APP_DB_NAME='qgvvzgpx'
 
 # The production settings module. `tutorial.azure` is the example provided.
+# For this project, it is 'apiary_project'
 DJANGO_SETTINGS_MODULE='apiary_project.azure'
 
 # Azure Storages Account Name, Container Name and Key for staticfiles.
@@ -77,8 +78,8 @@ AZ_STORAGE_CONTAINER='apiarydevstoragecontainer'
 # Or add in the portal.
 #
 #   App > Deployment Center > Deployment Credentials > User Credentials
-DEPLOYMENT_USERNAME=''
-DEPLOYMENT_PASSWORD=''
+DEPLOYMENT_USERNAME='wendyshar'
+DEPLOYMENT_PASSWORD='Wenquan0925$$'
 
 # The `LocalGit` deployment URL of the App.
 #
@@ -86,7 +87,7 @@ DEPLOYMENT_PASSWORD=''
 # You can retrieve it from the portal or via the `az` CLI:s
 #
 # $ az webapp deployment source config-local-git --name=<APP_SERVICE_APP_NAME>  --resource-group=<AZ_GROUP>
-DEPLOYMENT_URL=''
+DEPLOYMENT_URL='https://github.com/wendyjens/apiary_repo'
 
 
 

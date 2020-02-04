@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'apiary_project.settings')
-
+# Set it to use azure.py for production environment
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'apiary_project.azure')
 application = get_wsgi_application()
